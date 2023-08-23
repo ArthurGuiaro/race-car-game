@@ -1,0 +1,92 @@
+body {
+  padding: 0;
+  text-align: center;
+}
+
+.game-intro {
+  float: left;
+  padding: 0% 10%;
+  width: 350px;
+}
+
+.game-intro p {
+  font-size: 18px;
+  font-family: "Verdana"
+}
+
+.logo-img {
+  width: 350px;
+}
+
+.arrows-img {
+  width: 150px;
+}
+
+body button {
+  font-size: 30px;
+  background-color: #870007;
+  color: #fff;
+  padding: 20px 40px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+
+}
+
+
+
+#blue {
+  background-color: #31BFFE;
+  color: gray;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+#green {
+  background-color: #7AE950;
+  color: gray;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+#purple {
+  background-color: #6F49B1;
+  color: gray;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+#red {
+  background-color: #F05C50;
+  color: gray;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+#yellow {
+  background-color: #F8FA38;
+  color: gray;
+  font-size: 15px;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+#game-board {
+  float: left;
+  padding: 20px 0px;
+}
+
+#white-square {
+  background-color: #fff;
+  z-index: -1;
+  position: absolute;
+}

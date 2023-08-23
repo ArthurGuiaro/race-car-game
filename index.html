@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="shortcut icon" href="./images/icon/icon.png" type="image/x-icon">
+  <title>Race Car</title>
+</head>
+
+<body>
+  <div class="game-intro">
+    <img src="./images/logo.png" alt="" class="logo-img" />
+    <br />
+    <button id="start-button">StartGame</button>
+    <p>Use the left and right arrow to control the car!</p>
+    <img src="./images/arrows.png" alt="" class="arrows-img" />
+    <div id="white-square">
+      <img src="./images/white background.png">
+    </div>
+    <div id="buttons">
+      <p id="buttons-p">Choose the car's color:</p>
+      <button id="blue" class="color"></button>
+      <button id="green" class="color"></button>
+      <button id="purple" class="color"></button>
+      <button id="red" class="color"></button>
+      <button id="yellow" class="color"></button>
+    </div>
+  </div>
+
+
+  <div id="game-board">
+    <canvas id="canvas" width="500" height="700"></canvas>
+  </div>
+  <script src="./js/html types.js"></script>
+  <script src="./js/images.js"></script>
+  <script type="text/javascript" src="js/indexx.js"></script>
+</body>
+
+</html>
