@@ -4,6 +4,9 @@ imgRoad.src = "../images/road.png"
 let imgRoadLine = new Image()
 imgRoadLine.src = "../images/line.png"
 
+let imgGasoline = new Image()
+imgGasoline.src ="../images/gasoline.png"
+
 
 
 
